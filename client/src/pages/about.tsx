@@ -77,7 +77,7 @@ export default function About() {
                 <strong>Current Version:</strong> <span className="font-mono">{version}</span>
               </div>
               <div>
-                <strong>Last Updated:</strong> <span>January 2025</span>
+                <strong>Last Updated:</strong> <span>August 2025 - Git Testing Update</span>
               </div>
               <div>
                 <strong>License:</strong> MIT

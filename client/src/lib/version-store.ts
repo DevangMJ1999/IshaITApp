@@ -34,27 +34,34 @@ interface VersionState {
 export const useVersionStore = create<VersionState>()(
   persist(
     (set, get) => ({
-      version: 'v1.2.3',
-      commits: 42,
+      version: 'v1.3.0',
+      commits: 45,
       branch: 'main',
       counter: 0,
       recentCommits: [
         {
           id: '1',
+          message: 'Updated version to v1.3.0 for Git testing',
+          timestamp: 'just now',
+          hash: 'f9e8d7c',
+          icon: 'save'
+        },
+        {
+          id: 'nav-component',
           message: 'Add new navigation component',
           timestamp: '2 hours ago',
           hash: 'a1b2c3d',
           icon: 'branch'
         },
         {
-          id: '2',
+          id: 'style-update',
           message: 'Update version display styling',
           timestamp: '5 hours ago',
           hash: 'x9y8z7w',
           icon: 'plus'
         },
         {
-          id: '3',
+          id: 'layout-fix',
           message: 'Fix responsive layout issues',
           timestamp: '1 day ago',
           hash: 'm5n4o3p',
