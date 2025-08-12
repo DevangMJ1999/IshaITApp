@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.3.1] - 2025-08-11
+
+### Added
+- New CommitHelper component with Git workflow guidance
+- Commit simulation buttons for testing
+- Green-themed helper card to guide Git operations
+
+### Changed
+- Updated version from v1.3.0 to v1.3.1
+- Improved home page layout with commit helper
+
 ## [v1.3.0] - 2025-08-11
 
 ### Added
