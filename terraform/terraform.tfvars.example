@@ -1,0 +1,26 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Project Configuration
+project_name = "replit-version-test-app"
+
+# EC2 Configuration
+instance_type = "t3.micro"  # Free tier eligible
+
+# SSH Configuration
+# Generate a key pair: ssh-keygen -t rsa -b 4096 -f ~/.ssh/replit-app-key
+# Then paste the contents of ~/.ssh/replit-app-key.pub here
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAA... your-public-key-here"
+
+# Security Configuration
+# Restrict SSH access to your IP for better security
+# Get your IP: curl ifconfig.me
+ssh_cidr_blocks = ["0.0.0.0/0"]  # Change to ["YOUR.IP.ADDRESS/32"] for better security
+
+# Application Configuration
+app_port = 5000
+
+# Optional: Domain name if you have one
+# domain_name = "yourdomain.com"

@@ -2,6 +2,10 @@
 
 This is a React-based version control testing application designed to help developers experiment with Git workflows, commit strategies, and deployment practices. The app provides an interactive interface with features like version tracking, commit history simulation, form handling, and settings management. It serves as a controlled environment for testing version control concepts without affecting real repositories.
 
+## Recent Updates
+
+**August 11, 2025** - Added complete AWS Terraform infrastructure configuration for deploying the application to EC2 instances. The Terraform setup includes VPC, security groups, auto-deployment scripts, and production-ready configuration with Nginx reverse proxy.
+
 # User Preferences
 
 Preferred communication style: Simple, everyday language.
@@ -43,6 +47,10 @@ Preferred communication style: Simple, everyday language.
 **TypeScript**: Strict TypeScript configuration across both frontend and backend with ESNext modules and comprehensive type checking.
 
 **Monorepo Structure**: Organized as a monorepo with `client/`, `server/`, and `shared/` directories for clear separation of concerns while enabling code sharing between frontend and backend.
+
+## Infrastructure & Deployment
+
+**Terraform AWS Configuration**: Complete infrastructure as code setup for deploying to AWS EC2 instances. Includes VPC, security groups, auto-deployment scripts, and production configuration with Nginx reverse proxy. Located in `/terraform` directory with comprehensive documentation and examples.
 
 # External Dependencies
 
